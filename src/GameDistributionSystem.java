@@ -7,7 +7,6 @@ public class GameDistributionSystem {
     private static Connection connection;
 
     public static void main(String[] args) {
-
         initializeDatabase();
         showMenu();
     }
